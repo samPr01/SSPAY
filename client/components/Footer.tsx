@@ -85,7 +85,7 @@ export function Footer() {
                   href="mailto:support@samaysagarpay.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  support@payflow.com
+                  support@samaysagarpay.com
                 </a>
               </div>
             </div>
