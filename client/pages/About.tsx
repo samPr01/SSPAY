@@ -53,31 +53,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="bg-gradient-to-r from-brand-600 to-purple-600 py-16 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl font-bold mb-2">10K+</div>
-              <div className="text-brand-100">Happy Customers</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">₹200Cr+</div>
-              <div className="text-brand-100">Transactions Processed</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">99.9%</div>
-              <div className="text-brand-100">Uptime Guarantee</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">24/7</div>
-              <div className="text-brand-100">Customer Support</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <StatsSection />
 
       {/* Values */}
       <section className="py-24">
