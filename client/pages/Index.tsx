@@ -192,7 +192,7 @@ export default function Index() {
                 Send money across India instantly with competitive rates and secure processing.
               </p>
               <div className="text-center mb-4">
-                <div className="text-2xl font-bold text-blue-600">1M+</div>
+                <div className="text-2xl font-bold text-blue-600">3Cr+</div>
                 <div className="text-sm text-gray-500">Monthly Transfers</div>
               </div>
               <Button asChild variant="outline">
