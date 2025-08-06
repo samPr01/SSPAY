@@ -44,17 +44,6 @@ export function ServicesSection() {
                 </div>
               </div>
 
-              <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-500 rounded-full flex items-center justify-center">
-                    <CheckCircle className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="text-lg font-bold text-gray-900">99.9%</div>
-                    <div className="text-sm text-gray-600">Uptime</div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           
