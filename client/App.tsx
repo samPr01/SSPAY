@@ -14,6 +14,12 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import FAQ from "./pages/FAQ";
+import RefundsPolicy from "./pages/RefundsPolicy";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import CookiePolicy from "./pages/CookiePolicy";
+import Security from "./pages/Security";
+import TermsOfService from "./pages/TermsOfService";
 import PlaceholderPage from "./pages/PlaceholderPage";
 import NotFound from "./pages/NotFound";
 
@@ -36,12 +42,12 @@ const App = () => (
               <Route path="/services/:service" element={<PlaceholderPage />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
-              <Route path="/faq" element={<PlaceholderPage />} />
-              <Route path="/refunds" element={<PlaceholderPage />} />
-              <Route path="/privacy" element={<PlaceholderPage />} />
-              <Route path="/terms" element={<PlaceholderPage />} />
-              <Route path="/security" element={<PlaceholderPage />} />
-              <Route path="/cookies" element={<PlaceholderPage />} />
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/refunds" element={<RefundsPolicy />} />
+              <Route path="/privacy" element={<PrivacyPolicy />} />
+              <Route path="/terms" element={<TermsOfService />} />
+              <Route path="/security" element={<Security />} />
+              <Route path="/cookies" element={<CookiePolicy />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
