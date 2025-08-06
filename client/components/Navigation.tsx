@@ -50,18 +50,20 @@ export function Navigation() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link 
-              to="/login" 
-              className="text-gray-700 hover:text-brand-600 font-medium transition-colors"
-            >
-              Log In
-            </Link>
-            <Button 
-              asChild
-              className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white shadow-lg"
-            >
-              <Link to="/signup">Get Started</Link>
-            </Button>
+            <div className="relative group">
+              <Button
+                className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white shadow-lg"
+              >
+                Get Started
+                <ChevronDown className="w-4 h-4 ml-1" />
+              </Button>
+              <div className="absolute top-full right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <div className="py-2">
+                  <Link to="/login" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">Login</Link>
+                  <Link to="/signup" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">Sign Up</Link>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -105,19 +107,20 @@ export function Navigation() {
               >
                 Contact
               </Link>
-              <Link 
-                to="/login" 
+              <Link
+                to="/login"
                 className="text-gray-700 hover:text-brand-600 font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Log In
               </Link>
-              <Button 
-                asChild
-                className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white w-full"
+              <Link
+                to="/signup"
+                className="text-gray-700 hover:text-brand-600 font-medium"
+                onClick={() => setIsOpen(false)}
               >
-                <Link to="/signup" onClick={() => setIsOpen(false)}>Get Started</Link>
-              </Button>
+                Sign Up
+              </Link>
             </div>
           </div>
         )}
