@@ -2,12 +2,7 @@ import { Link } from "react-router-dom";
 import {
   Wallet,
   Mail,
-  Phone,
   MapPin,
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
   ArrowRight,
 } from "lucide-react";
 
@@ -15,7 +10,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-6">
@@ -28,49 +23,6 @@ export function Footer() {
               Revolutionizing digital payments with secure, fast, and reliable
               solutions for businesses and individuals worldwide.
             </p>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">Services</h3>
-            <ul className="space-y-4">
-              <li>
-                <Link
-                  to="/services/money-transfer"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Money Transfer
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/bill-payment"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Bill Payment
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/mobile-recharge"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Mobile Recharge
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/business"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Business Solutions
-                </Link>
-              </li>
-            </ul>
           </div>
 
           {/* Company */}
