@@ -26,7 +26,7 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="text-center">
             <h3 className="text-base font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
@@ -48,10 +48,10 @@ export function Footer() {
           </div>
 
           {/* Address */}
-          <div>
+          <div className="text-center">
             <h3 className="text-base font-semibold mb-4">Address</h3>
-            <div className="flex items-start space-x-3">
-              <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
+            <div className="flex flex-col items-center space-y-1">
+              <MapPin className="w-4 h-4 text-blue-400 mb-2" />
               <div className="text-gray-400 text-sm">
                 <p className="font-medium">213, Diamond Trading Centre</p>
                 <p>New Palasia Indore 474001</p>
@@ -61,10 +61,10 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="text-center">
             <h3 className="text-base font-semibold mb-4">Contact</h3>
-            <div className="flex items-center space-x-3">
-              <Mail className="w-4 h-4 text-purple-400 flex-shrink-0" />
+            <div className="flex flex-col items-center space-y-2">
+              <Mail className="w-4 h-4 text-purple-400" />
               <a
                 href="mailto:agentxofficialwork@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors text-sm"
