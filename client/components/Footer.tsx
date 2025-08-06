@@ -72,18 +72,18 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-6">Contact Info</h3>
             <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-brand-400 mt-1 flex-shrink-0" />
-                <div className="text-gray-400">
-                  <p>213, Diamond Trading Centre</p>
-                  <p>Indore (MP) 452001</p>
+              <div className="flex items-start space-x-3 p-4 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl border border-blue-300/20">
+                <MapPin className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
+                <div className="text-blue-100">
+                  <p className="font-semibold">213, Diamond Trading Centre</p>
+                  <p className="text-blue-200">Indore (MP) 452001</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-brand-400 flex-shrink-0" />
+              <div className="flex items-center space-x-3 p-4 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-xl border border-purple-300/20">
+                <Mail className="w-5 h-5 text-purple-400 flex-shrink-0" />
                 <a
                   href="mailto:agentxofficialwork@gmail.com"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-purple-100 hover:text-white transition-colors font-semibold"
                 >
                   agentxofficialwork@gmail.com
                 </a>
