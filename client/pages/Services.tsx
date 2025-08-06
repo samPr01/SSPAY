@@ -44,45 +44,24 @@ export default function Services() {
                 <CreditCard className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-3">Money Transfer</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Send money globally with competitive exchange rates and lightning-fast processing. 
-                Our secure platform ensures your transfers reach their destination safely.
+              <p className="text-gray-600 mb-4 text-sm">
+                Send money globally with competitive rates and secure processing.
               </p>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center text-gray-700">
-                  <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                  Instant international transfers
-                </li>
-                <li className="flex items-center text-gray-700">
-                  <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                  Competitive exchange rates
-                </li>
-                <li className="flex items-center text-gray-700">
-                  <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                  24/7 transaction tracking
-                </li>
-                <li className="flex items-center text-gray-700">
-                  <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                  Multiple currency support
-                </li>
-              </ul>
-              <Button asChild className="w-full bg-blue-600 hover:bg-blue-700">
+              <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 text-sm py-2">
                 <Link to="/services/money-transfer">
                   Learn More
-                  <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
             </div>
 
             {/* Bill Payment */}
-            <div className="group bg-gradient-to-br from-green-50 to-emerald-100 rounded-3xl p-8 border border-green-200 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <Globe className="w-10 h-10 text-white" />
+            <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm text-center">
+              <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                <Globe className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Bill Payment</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Pay all your bills in one place. From utilities to subscriptions, 
-                manage your payments with automated scheduling and reminders.
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Bill Payment</h3>
+              <p className="text-gray-600 mb-4 text-sm">
+                Pay all your bills in one place with automated scheduling.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center text-gray-700">
