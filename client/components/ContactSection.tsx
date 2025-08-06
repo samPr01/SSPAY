@@ -28,8 +28,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-                  <p className="text-gray-600">support@samaysagarpay.com</p>
-                  <p className="text-gray-600">business@samaysagarpay.com</p>
+                  <p className="text-gray-600">agentxofficialwork@gmail.com</p>
                 </div>
               </div>
 
