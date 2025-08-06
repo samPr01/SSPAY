@@ -19,14 +19,11 @@ export function ServicesSection() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24">
         <div className="text-center mb-16">
           <div className="mb-6">
-            <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide">
-              Welcome to Samaysagarpay
+            <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-brand-100 to-purple-100 text-brand-700 border border-brand-200/50">
+              <Zap className="w-4 h-4 mr-2" />
+              Revolutionizing Digital Payments
             </span>
           </div>
-
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-            Revolutionizing Digital Payments
-          </h2>
 
           <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
             Our platform transforms how businesses and individuals handle digital transactions.
@@ -37,24 +34,44 @@ export function ServicesSection() {
 
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="flex items-start space-x-3">
-              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <Zap className="w-4 h-4 text-white" />
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                <Zap className="w-6 h-6 text-white" />
               </div>
-              <div>
-                <h4 className="font-semibold text-gray-900 mb-1">Lightning Fast</h4>
-                <p className="text-sm text-gray-600">Instant transaction processing</p>
+              <div className="text-center">
+                <h4 className="font-semibold text-gray-900 mb-1 text-sm">Lightning Fast</h4>
+                <p className="text-xs text-gray-600">Instant processing</p>
               </div>
             </div>
 
-            <div className="flex items-start space-x-3">
-              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
-                <Clock className="w-4 h-4 text-white" />
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+                <Clock className="w-6 h-6 text-white" />
               </div>
-              <div>
-                <h4 className="font-semibold text-gray-900 mb-1">24/7 Support</h4>
-                <p className="text-sm text-gray-600">Round-the-clock assistance</p>
+              <div className="text-center">
+                <h4 className="font-semibold text-gray-900 mb-1 text-sm">24/7 Support</h4>
+                <p className="text-xs text-gray-600">Round-the-clock</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
+                <Users className="w-6 h-6 text-white" />
+              </div>
+              <div className="text-center">
+                <h4 className="font-semibold text-gray-900 mb-1 text-sm">5L+ Payments</h4>
+                <p className="text-xs text-gray-600">Processed monthly</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-pink-600 rounded-lg flex items-center justify-center">
+                <Shield className="w-6 h-6 text-white" />
+              </div>
+              <div className="text-center">
+                <h4 className="font-semibold text-gray-900 mb-1 text-sm">Bank Security</h4>
+                <p className="text-xs text-gray-600">Military grade</p>
               </div>
             </div>
           </div>
@@ -65,9 +82,12 @@ export function ServicesSection() {
       <section className="bg-gradient-to-br from-brand-50 via-indigo-50 to-purple-50 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide mb-4 block">
-              Why Choose Samaysagarpay
-            </span>
+            <div className="mb-6">
+              <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-brand-100 to-purple-100 text-brand-700 border border-brand-200/50">
+                <Shield className="w-4 h-4 mr-2" />
+                Why Choose Samaysagarpay
+              </span>
+            </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
               Built for Modern Businesses
             </h2>
