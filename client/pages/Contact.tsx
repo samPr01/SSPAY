@@ -30,8 +30,8 @@ export default function Contact() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Email Support</h3>
               <p className="text-gray-600 text-sm mb-3">Send us an email</p>
-              <a href="mailto:support@samaysagarpay.com" className="text-brand-600 font-medium hover:text-brand-700">
-                support@samaysagarpay.com
+              <a href="mailto:agentxofficialwork@gmail.com" className="text-brand-600 font-medium hover:text-brand-700">
+                agentxofficialwork@gmail.com
               </a>
             </div>
 
