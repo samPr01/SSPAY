@@ -17,82 +17,46 @@ export function ServicesSection() {
     <div className="py-24 bg-white">
       {/* About Company Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
-          <div className="mb-10 lg:mb-0">
-            <div className="relative">
-              <div className="w-full h-80 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-2xl shadow-2xl overflow-hidden relative">
-                {/* Animated background */}
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-pink-600/20 animate-pulse"></div>
-
-                {/* Floating elements */}
-                <div className="absolute top-8 left-8 w-16 h-16 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce">
-                  <Shield className="w-8 h-8 text-white" />
-                </div>
-                <div className="absolute top-16 right-12 w-12 h-12 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center" style={{animationDelay: '0.5s'}}>
-                  <Zap className="w-6 h-6 text-white" />
-                </div>
-                <div className="absolute bottom-16 left-16 w-14 h-14 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce" style={{animationDelay: '1s'}}>
-                  <Globe className="w-7 h-7 text-white" />
-                </div>
-
-                {/* Central content */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <h3 className="text-2xl font-bold mb-2">Payment Solutions</h3>
-                    <p className="text-blue-100">Secure • Fast • Reliable</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
+        <div className="text-center mb-16">
+          <div className="mb-6">
+            <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide">
+              Welcome to Samaysagarpay
+            </span>
           </div>
+
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            Revolutionizing Digital Payments
+          </h2>
+
+          <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
+            Our platform transforms how businesses and individuals handle digital transactions.
+            With cutting-edge technology and uncompromising security, we provide seamless
+            payment solutions that adapt to your needs.
+          </p>
+        </div>
+
+        <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
           
-          <div>
-            <div className="mb-6">
-              <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide">
-                Welcome to Samaysagarpay
-              </span>
-            </div>
-            
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-              Revolutionizing Digital Payments
-            </h2>
-            
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Our platform transforms how businesses and individuals handle digital transactions. 
-              With cutting-edge technology and uncompromising security, we provide seamless 
-              payment solutions that adapt to your needs.
-            </p>
-
-            <div className="grid grid-cols-2 gap-6 mb-8">
-              <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                  <Zap className="w-4 h-4 text-white" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Lightning Fast</h4>
-                  <p className="text-sm text-gray-600">Instant transaction processing</p>
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="flex items-start space-x-3">
+              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                <Zap className="w-4 h-4 text-white" />
               </div>
-              
-              <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
-                  <Clock className="w-4 h-4 text-white" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">24/7 Support</h4>
-                  <p className="text-sm text-gray-600">Round-the-clock assistance</p>
-                </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-1">Lightning Fast</h4>
+                <p className="text-sm text-gray-600">Instant transaction processing</p>
               </div>
             </div>
 
-            <Button 
-              size="lg"
-              className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white"
-            >
-              Learn More
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
+            <div className="flex items-start space-x-3">
+              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+                <Clock className="w-4 h-4 text-white" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-1">24/7 Support</h4>
+                <p className="text-sm text-gray-600">Round-the-clock assistance</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
