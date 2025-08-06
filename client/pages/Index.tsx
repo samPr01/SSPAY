@@ -19,30 +19,12 @@ export default function Index() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
             <div className="mb-10 lg:mb-0">
               <div className="relative">
-                <div className="w-full h-80 bg-gradient-to-br from-purple-400 via-pink-500 to-rose-500 rounded-2xl shadow-2xl overflow-hidden relative">
-                  {/* Animated background */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 via-pink-600/20 to-rose-600/20 animate-pulse"></div>
-
-                  {/* Floating elements */}
-                  <div className="absolute top-10 left-10 w-18 h-18 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce">
-                    <CreditCard className="w-9 h-9 text-white" />
-                  </div>
-                  <div className="absolute top-24 right-12 w-14 h-14 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center" style={{animationDelay: '0.5s'}}>
-                    <Building className="w-7 h-7 text-white" />
-                  </div>
-                  <div className="absolute bottom-18 left-18 w-16 h-16 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce" style={{animationDelay: '1s'}}>
-                    <Smartphone className="w-8 h-8 text-white" />
-                  </div>
-
-                  {/* Central content */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center text-white">
-                      <h3 className="text-3xl font-bold mb-3">Secure Payments</h3>
-                      <p className="text-pink-100 text-lg">Fast & Reliable</p>
-                    </div>
+                <div className="w-full h-60 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl shadow-lg border border-gray-200 flex items-center justify-center">
+                  <div className="text-center">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Secure Payment Platform</h3>
+                    <p className="text-gray-600">Fast, Reliable & Trusted</p>
                   </div>
                 </div>
-
               </div>
             </div>
             
