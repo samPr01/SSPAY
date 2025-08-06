@@ -24,7 +24,7 @@ export function StatsSection() {
           <div>
             <div className="flex items-center justify-center mb-2">
               <CreditCard className="w-6 h-6 mr-2" />
-              <div className="text-2xl font-bold">1M+</div>
+              <div className="text-2xl font-bold">3Cr+</div>
             </div>
             <div className="text-brand-100 text-sm">Money Transfers</div>
           </div>
