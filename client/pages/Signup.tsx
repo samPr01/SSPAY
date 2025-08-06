@@ -20,7 +20,7 @@ export default function Signup() {
                 <Wallet className="w-7 h-7 text-white" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-brand-600 to-brand-700 bg-clip-text text-transparent">
-                PayFlow
+                Samaysagarpay
               </span>
             </Link>
             <h1 className="text-2xl font-bold text-gray-900 mb-2">Create your account</h1>
