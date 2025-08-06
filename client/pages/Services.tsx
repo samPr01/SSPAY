@@ -12,6 +12,7 @@ import {
   ArrowRight
 } from 'lucide-react';
 import { Button } from '../components/ui/button';
+import { StatsSection } from '../components/StatsSection';
 
 export default function Services() {
   return (
@@ -30,6 +31,8 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      <StatsSection />
 
       {/* Main Services */}
       <section className="py-24">
