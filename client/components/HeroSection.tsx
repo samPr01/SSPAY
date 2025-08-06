@@ -1,4 +1,4 @@
-import { ArrowRight, Play, Smartphone, Shield, Zap, Globe } from 'lucide-react';
+import { ArrowRight, Play, Smartphone, Shield, Zap, Globe, CreditCard } from 'lucide-react';
 import { Button } from './ui/button';
 
 export function HeroSection() {
