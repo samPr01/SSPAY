@@ -9,119 +9,89 @@ import {
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Main Footer Content - All in one row */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
-          <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
-                <Wallet className="w-6 h-6 text-white" />
+          <div>
+            <Link to="/" className="flex items-center space-x-2 mb-4">
+              <div className="w-8 h-8 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
+                <Wallet className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">Samaysagarpay</span>
+              <span className="text-lg font-bold">Samaysagarpay</span>
             </Link>
-            <p className="text-gray-400 mb-6 leading-relaxed">
-              Revolutionizing digital payments with secure, fast, and reliable
-              solutions for businesses and individuals worldwide.
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Secure digital payment solutions for businesses and individuals.
             </p>
           </div>
 
-          {/* Company */}
+          {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Company</h3>
-            <ul className="space-y-4">
+            <h3 className="text-base font-semibold mb-4">Quick Links</h3>
+            <ul className="space-y-2">
               <li>
-                <Link
-                  to="/about"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <Link to="/about" className="text-gray-400 hover:text-white transition-colors text-sm">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/faq"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <Link to="/faq" className="text-gray-400 hover:text-white transition-colors text-sm">
                   FAQs
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/refunds"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Refunds & Cancellations
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Contact Us
+                <Link to="/contact" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Contact
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Address */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Contact Info</h3>
-            <div className="flex flex-col md:flex-row gap-4">
-              <div className="flex items-center space-x-3 p-3 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-lg border border-blue-300/20 flex-1">
-                <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0" />
-                <div className="text-blue-100">
-                  <p className="font-semibold text-sm">213, Diamond Trading Centre</p>
-                  <p className="text-blue-200 text-xs">Indore (MP) 452001</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-3 p-3 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-lg border border-purple-300/20 flex-1">
-                <Mail className="w-4 h-4 text-purple-400 flex-shrink-0" />
-                <a
-                  href="mailto:agentxofficialwork@gmail.com"
-                  className="text-purple-100 hover:text-white transition-colors font-semibold text-sm"
-                >
-                  agentxofficialwork@gmail.com
-                </a>
+            <h3 className="text-base font-semibold mb-4">Address</h3>
+            <div className="flex items-start space-x-3">
+              <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
+              <div className="text-gray-400 text-sm">
+                <p className="font-medium">213, Diamond Trading Centre</p>
+                <p>New Palasia Indore 474001</p>
+                <p>(MP) India</p>
               </div>
             </div>
+          </div>
 
+          {/* Contact */}
+          <div>
+            <h3 className="text-base font-semibold mb-4">Contact</h3>
+            <div className="flex items-center space-x-3">
+              <Mail className="w-4 h-4 text-purple-400 flex-shrink-0" />
+              <a
+                href="mailto:agentxofficialwork@gmail.com"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                agentxofficialwork@gmail.com
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-gray-800 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               © 2024 Samaysagarpay. All rights reserved.
             </div>
-            <div className="flex flex-wrap gap-6 text-sm">
-              <Link
-                to="/privacy"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+            <div className="flex flex-wrap gap-4 text-sm">
+              <Link to="/privacy" className="text-gray-400 hover:text-white transition-colors">
                 Privacy Policy
               </Link>
-              <Link
-                to="/terms"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+              <Link to="/terms" className="text-gray-400 hover:text-white transition-colors">
                 Terms of Service
               </Link>
-              <Link
-                to="/security"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+              <Link to="/security" className="text-gray-400 hover:text-white transition-colors">
                 Security
               </Link>
-              <Link
-                to="/cookies"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+              <Link to="/cookies" className="text-gray-400 hover:text-white transition-colors">
                 Cookie Policy
               </Link>
             </div>
