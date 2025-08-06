@@ -103,4 +103,24 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Center align all content */
+  .text-center-global {
+    text-align: center;
+  }
+
+  /* Ensure better center alignment for sections */
+  section {
+    @apply text-center;
+  }
+
+  /* Better alignment for headers */
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-center;
+  }
+
+  /* Center paragraphs in sections */
+  section p {
+    @apply text-center mx-auto;
+  }
 }
