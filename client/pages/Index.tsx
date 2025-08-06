@@ -37,8 +37,8 @@ export default function Index() {
                   {/* Central content */}
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center text-white">
-                      <h3 className="text-3xl font-bold mb-3">Samaysagarpay</h3>
-                      <p className="text-pink-100 text-lg">Trusted Payment Solutions</p>
+                      <h3 className="text-3xl font-bold mb-3">Secure Payments</h3>
+                      <p className="text-pink-100 text-lg">Fast & Reliable</p>
                     </div>
                   </div>
                 </div>
