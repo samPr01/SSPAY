@@ -50,11 +50,29 @@ export default function About() {
             </div>
             
             <div>
-              <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Team collaboration"
-                className="rounded-2xl shadow-2xl"
-              />
+              <div className="w-full h-80 bg-gradient-to-br from-indigo-400 via-blue-500 to-cyan-500 rounded-2xl shadow-2xl overflow-hidden relative">
+                {/* Animated background */}
+                <div className="absolute inset-0 bg-gradient-to-r from-indigo-600/20 via-blue-600/20 to-cyan-600/20 animate-pulse"></div>
+
+                {/* Floating elements */}
+                <div className="absolute top-12 left-12 w-20 h-20 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce">
+                  <Users className="w-10 h-10 text-white" />
+                </div>
+                <div className="absolute top-20 right-16 w-16 h-16 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center" style={{animationDelay: '0.7s'}}>
+                  <Target className="w-8 h-8 text-white" />
+                </div>
+                <div className="absolute bottom-20 left-20 w-18 h-18 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce" style={{animationDelay: '1.2s'}}>
+                  <Globe className="w-9 h-9 text-white" />
+                </div>
+
+                {/* Central content */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="text-center text-white">
+                    <h3 className="text-3xl font-bold mb-3">Innovation Driven</h3>
+                    <p className="text-blue-100 text-lg">Building the Future of Payments</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
