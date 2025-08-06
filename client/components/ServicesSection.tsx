@@ -20,11 +20,30 @@ export function ServicesSection() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
           <div className="mb-10 lg:mb-0">
             <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Team collaborating on digital payments"
-                className="rounded-2xl shadow-2xl"
-              />
+              <div className="w-full h-80 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-2xl shadow-2xl overflow-hidden relative">
+                {/* Animated background */}
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-pink-600/20 animate-pulse"></div>
+
+                {/* Floating elements */}
+                <div className="absolute top-8 left-8 w-16 h-16 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce">
+                  <Shield className="w-8 h-8 text-white" />
+                </div>
+                <div className="absolute top-16 right-12 w-12 h-12 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center" style={{animationDelay: '0.5s'}}>
+                  <Zap className="w-6 h-6 text-white" />
+                </div>
+                <div className="absolute bottom-16 left-16 w-14 h-14 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce" style={{animationDelay: '1s'}}>
+                  <Globe className="w-7 h-7 text-white" />
+                </div>
+
+                {/* Central content */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="text-center text-white">
+                    <h3 className="text-2xl font-bold mb-2">Digital Excellence</h3>
+                    <p className="text-blue-100">Secure • Fast • Reliable</p>
+                  </div>
+                </div>
+              </div>
+
               <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-500 rounded-full flex items-center justify-center">
