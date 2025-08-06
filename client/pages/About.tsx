@@ -1,4 +1,5 @@
 import { Shield, Users, Globe, Award, CheckCircle, Target } from 'lucide-react';
+import { StatsSection } from '../components/StatsSection';
 
 export default function About() {
   return (
@@ -82,6 +83,8 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      <StatsSection />
 
       {/* Values */}
       <section className="py-24">
