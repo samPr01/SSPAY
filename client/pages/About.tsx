@@ -70,7 +70,7 @@ export default function About() {
               <div className="text-brand-100">Happy Customers</div>
             </div>
             <div>
-              <div className="text-4xl font-bold mb-2">$50M+</div>
+              <div className="text-4xl font-bold mb-2">₹200Cr+</div>
               <div className="text-brand-100">Transactions Processed</div>
             </div>
             <div>
