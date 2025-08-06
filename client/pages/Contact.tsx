@@ -1,4 +1,5 @@
 import { ContactSection } from '../components/ContactSection';
+import { StatsSection } from '../components/StatsSection';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 export default function Contact() {
@@ -48,6 +49,8 @@ export default function Contact() {
 
       {/* Main Contact Section */}
       <ContactSection />
+
+      <StatsSection />
     </div>
   );
 }
