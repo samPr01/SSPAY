@@ -94,7 +94,7 @@ export function ServicesSection() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide mb-4 block">
-              Why Choose PayFlow
+              Why Choose Samaysagarpay
             </span>
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
               Built for Modern Businesses
