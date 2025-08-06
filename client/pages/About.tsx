@@ -49,14 +49,6 @@ export default function About() {
               </ul>
             </div>
             
-            <div>
-              <div className="w-full h-60 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl shadow-lg border border-gray-200 flex items-center justify-center">
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Our Mission</h3>
-                  <p className="text-gray-600">Building Better Payment Solutions</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
