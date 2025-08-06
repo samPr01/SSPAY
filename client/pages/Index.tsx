@@ -19,11 +19,30 @@ export default function Index() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
             <div className="mb-10 lg:mb-0">
               <div className="relative">
-                <img
-                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Team collaborating on digital payments"
-                  className="rounded-2xl shadow-2xl"
-                />
+                <div className="w-full h-80 bg-gradient-to-br from-purple-400 via-pink-500 to-rose-500 rounded-2xl shadow-2xl overflow-hidden relative">
+                  {/* Animated background */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 via-pink-600/20 to-rose-600/20 animate-pulse"></div>
+
+                  {/* Floating elements */}
+                  <div className="absolute top-10 left-10 w-18 h-18 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce">
+                    <CreditCard className="w-9 h-9 text-white" />
+                  </div>
+                  <div className="absolute top-24 right-12 w-14 h-14 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center" style={{animationDelay: '0.5s'}}>
+                    <Building className="w-7 h-7 text-white" />
+                  </div>
+                  <div className="absolute bottom-18 left-18 w-16 h-16 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center animate-bounce" style={{animationDelay: '1s'}}>
+                    <Smartphone className="w-8 h-8 text-white" />
+                  </div>
+
+                  {/* Central content */}
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="text-center text-white">
+                      <h3 className="text-3xl font-bold mb-3">Samaysagarpay</h3>
+                      <p className="text-pink-100 text-lg">Trusted Payment Solutions</p>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-500 rounded-full flex items-center justify-center">
