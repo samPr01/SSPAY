@@ -1,0 +1,73 @@
+import { ContactSection } from '../components/ContactSection';
+import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+
+export default function Contact() {
+  return (
+    <div className="bg-white">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+              Contact Us
+            </h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              We're here to help. Reach out to our team for support, questions, 
+              or partnership opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Contact Cards */}
+      <section className="py-16 -mt-12 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Phone className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Phone Support</h3>
+              <p className="text-gray-600 text-sm mb-3">Call us directly</p>
+              <a href="tel:+15551234567" className="text-brand-600 font-medium hover:text-brand-700">
+                +1 (555) 123-4567
+              </a>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Mail className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Email Support</h3>
+              <p className="text-gray-600 text-sm mb-3">Send us an email</p>
+              <a href="mailto:support@payflow.com" className="text-brand-600 font-medium hover:text-brand-700">
+                support@payflow.com
+              </a>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <MapPin className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Visit Our Office</h3>
+              <p className="text-gray-600 text-sm mb-3">Come see us</p>
+              <p className="text-brand-600 font-medium">New York, NY</p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Clock className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">24/7 Support</h3>
+              <p className="text-gray-600 text-sm mb-3">Always available</p>
+              <p className="text-brand-600 font-medium">Round the clock</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Main Contact Section */}
+      <ContactSection />
+    </div>
+  );
+}
