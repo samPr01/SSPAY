@@ -36,7 +36,7 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold text-gray-900">Office</h3>
-                <p className="text-purple-700 font-medium text-sm">213, Diamond Trading Centre, Indore (MP)</p>
+                <p className="text-purple-700 font-medium text-sm">213, Diamond Trading Centre, New Palasia Indore 474001, (MP) India</p>
               </div>
             </div>
           </div>
