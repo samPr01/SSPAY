@@ -84,6 +84,38 @@ export default function Services() {
                 </Link>
               </Button>
             </div>
+
+            {/* 5L+ Payments */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm text-center">
+              <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                <Users className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">5L+ Payments</h3>
+              <p className="text-gray-600 mb-4 text-sm">
+                Processing over 5 lakh payments monthly with reliability.
+              </p>
+              <Button asChild className="w-full bg-orange-600 hover:bg-orange-700 text-sm py-2">
+                <Link to="/about">
+                  Learn More
+                </Link>
+              </Button>
+            </div>
+
+            {/* 24/7 Support */}
+            <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm text-center">
+              <div className="w-12 h-12 bg-emerald-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                <Clock className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">24/7 Support</h3>
+              <p className="text-gray-600 mb-4 text-sm">
+                Round-the-clock customer support for all your needs.
+              </p>
+              <Button asChild className="w-full bg-emerald-600 hover:bg-emerald-700 text-sm py-2">
+                <Link to="/contact">
+                  Contact Us
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
