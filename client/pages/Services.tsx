@@ -32,12 +32,11 @@ export default function Services() {
         </div>
       </section>
 
-      <StatsSection />
 
       {/* Main Services */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mb-12 max-w-6xl mx-auto">
             {/* Money Transfer */}
             <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm text-center">
               <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
