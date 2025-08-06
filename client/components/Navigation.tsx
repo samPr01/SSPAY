@@ -50,20 +50,19 @@ export function Navigation() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <div className="relative group">
-              <Button
-                className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white shadow-lg"
-              >
-                Get Started
-                <ChevronDown className="w-4 h-4 ml-1" />
-              </Button>
-              <div className="absolute top-full right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                <div className="py-2">
-                  <Link to="/login" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">Login</Link>
-                  <Link to="/signup" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">Sign Up</Link>
-                </div>
-              </div>
-            </div>
+            <Button
+              asChild
+              variant="outline"
+              className="border-brand-500 text-brand-600 hover:bg-brand-50"
+            >
+              <Link to="/login">Login</Link>
+            </Button>
+            <Button
+              asChild
+              className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white shadow-lg"
+            >
+              <Link to="/signup">Sign Up</Link>
+            </Button>
           </div>
 
           {/* Mobile menu button */}
