@@ -50,7 +50,6 @@ export default function Contact() {
       {/* Main Contact Section */}
       <ContactSection />
 
-      <StatsSection />
     </div>
   );
 }
