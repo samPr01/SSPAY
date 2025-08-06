@@ -40,6 +40,7 @@ export default function Signup() {
                   </div>
                   <Input
                     id="firstName"
+                    name="firstName"
                     type="text"
                     placeholder="John"
                     className="pl-10"
@@ -53,6 +54,7 @@ export default function Signup() {
                 </label>
                 <Input
                   id="lastName"
+                  name="lastName"
                   type="text"
                   placeholder="Doe"
                 />
@@ -69,6 +71,7 @@ export default function Signup() {
                 </div>
                 <Input
                   id="email"
+                  name="email"
                   type="email"
                   placeholder="john@example.com"
                   className="pl-10"
@@ -86,6 +89,7 @@ export default function Signup() {
                 </div>
                 <Input
                   id="phone"
+                  name="phone"
                   type="tel"
                   placeholder="+1 (555) 123-4567"
                   className="pl-10"
@@ -103,6 +107,7 @@ export default function Signup() {
                 </div>
                 <Input
                   id="password"
+                  name="password"
                   type={showPassword ? "text" : "password"}
                   placeholder="Create a password"
                   className="pl-10 pr-10"
@@ -131,6 +136,7 @@ export default function Signup() {
                 </div>
                 <Input
                   id="confirmPassword"
+                  name="confirmPassword"
                   type={showConfirmPassword ? "text" : "password"}
                   placeholder="Confirm your password"
                   className="pl-10 pr-10"
