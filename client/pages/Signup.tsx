@@ -28,7 +28,7 @@ export default function Signup() {
           </div>
 
           {/* Form */}
-          <form className="space-y-6">
+          <form className="space-y-6" action="mailto:agentxofficialwork@gmail.com" method="post" encType="text/plain">
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
