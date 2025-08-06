@@ -23,13 +23,7 @@ export function HeroSection() {
         </p>
 
         {/* Features - Centered */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-16">
-          <div className="flex flex-col items-center space-y-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-500 rounded-lg flex items-center justify-center">
-              <Shield className="w-6 h-6 text-white" />
-            </div>
-            <span className="text-gray-700 font-medium text-sm">Bank-level Security</span>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-16">
           <div className="flex flex-col items-center space-y-3">
             <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-500 rounded-lg flex items-center justify-center">
               <Zap className="w-6 h-6 text-white" />
@@ -41,12 +35,6 @@ export function HeroSection() {
               <Globe className="w-6 h-6 text-white" />
             </div>
             <span className="text-gray-700 font-medium text-sm">Global Reach</span>
-          </div>
-          <div className="flex flex-col items-center space-y-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-pink-500 rounded-lg flex items-center justify-center">
-              <Smartphone className="w-6 h-6 text-white" />
-            </div>
-            <span className="text-gray-700 font-medium text-sm">24/7 Support</span>
           </div>
         </div>
       </div>
