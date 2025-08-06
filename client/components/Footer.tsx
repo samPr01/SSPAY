@@ -1,0 +1,230 @@
+import { Link } from 'react-router-dom';
+import { 
+  Wallet, 
+  Mail, 
+  Phone, 
+  MapPin, 
+  Facebook, 
+  Twitter, 
+  Instagram, 
+  Linkedin,
+  ArrowRight
+} from 'lucide-react';
+
+export function Footer() {
+  return (
+    <footer className="bg-gray-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Company Info */}
+          <div className="lg:col-span-1">
+            <Link to="/" className="flex items-center space-x-2 mb-6">
+              <div className="w-10 h-10 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
+                <Wallet className="w-6 h-6 text-white" />
+              </div>
+              <span className="text-xl font-bold">PayFlow</span>
+            </Link>
+            <p className="text-gray-400 mb-6 leading-relaxed">
+              Revolutionizing digital payments with secure, fast, and reliable solutions 
+              for businesses and individuals worldwide.
+            </p>
+            <div className="flex space-x-4">
+              <a 
+                href="#" 
+                className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a 
+                href="#" 
+                className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
+              >
+                <Twitter className="w-5 h-5" />
+              </a>
+              <a 
+                href="#" 
+                className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a 
+                href="#" 
+                className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Services</h3>
+            <ul className="space-y-4">
+              <li>
+                <Link 
+                  to="/services/money-transfer" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
+                >
+                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  Money Transfer
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/services/bill-payment" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
+                >
+                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  Bill Payment
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/services/mobile-recharge" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
+                >
+                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  Mobile Recharge
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/services/business" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
+                >
+                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  Business Solutions
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Company */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Company</h3>
+            <ul className="space-y-4">
+              <li>
+                <Link 
+                  to="/about" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
+                >
+                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/careers" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
+                >
+                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/news" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
+                >
+                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  News & Updates
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/contact" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
+                >
+                  <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Contact Info</h3>
+            <div className="space-y-4">
+              <div className="flex items-start space-x-3">
+                <MapPin className="w-5 h-5 text-brand-400 mt-1 flex-shrink-0" />
+                <div className="text-gray-400">
+                  <p>123 Financial District</p>
+                  <p>New York, NY 10004</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Phone className="w-5 h-5 text-brand-400 flex-shrink-0" />
+                <a 
+                  href="tel:+15551234567" 
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  +1 (555) 123-4567
+                </a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Mail className="w-5 h-5 text-brand-400 flex-shrink-0" />
+                <a 
+                  href="mailto:support@payflow.com" 
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  support@payflow.com
+                </a>
+              </div>
+            </div>
+
+            {/* Newsletter */}
+            <div className="mt-8">
+              <h4 className="text-md font-semibold mb-4">Stay Updated</h4>
+              <div className="flex">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus:outline-none focus:border-brand-500 text-white placeholder-gray-400"
+                />
+                <button className="px-4 py-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 rounded-r-lg transition-colors">
+                  <Mail className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="border-t border-gray-800 mt-12 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="text-gray-400 text-sm mb-4 md:mb-0">
+              © 2024 PayFlow. All rights reserved.
+            </div>
+            <div className="flex flex-wrap gap-6 text-sm">
+              <Link 
+                to="/privacy" 
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Privacy Policy
+              </Link>
+              <Link 
+                to="/terms" 
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Terms of Service
+              </Link>
+              <Link 
+                to="/security" 
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Security
+              </Link>
+              <Link 
+                to="/cookies" 
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Cookie Policy
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
