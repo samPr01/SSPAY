@@ -1,16 +1,16 @@
-import {
-  CreditCard,
-  Smartphone,
-  Globe,
-  Shield,
-  Zap,
-  Users,
-  Building,
+import { 
+  CreditCard, 
+  Smartphone, 
+  Globe, 
+  Shield, 
+  Zap, 
+  Users, 
+  Building, 
   Clock,
   CheckCircle,
-  ArrowRight,
-} from "lucide-react";
-import { Button } from "./ui/button";
+  ArrowRight
+} from 'lucide-react';
+import { Button } from './ui/button';
 
 export function ServicesSection() {
   return (
@@ -38,23 +38,22 @@ export function ServicesSection() {
               </div>
             </div>
           </div>
-
+          
           <div>
             <div className="mb-6">
               <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide">
-                Welcome to PayFlow
+                Welcome to Samaysagarpay
               </span>
             </div>
-
+            
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
               Revolutionizing Digital Payments
             </h2>
-
+            
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Our platform transforms how businesses and individuals handle
-              digital transactions. With cutting-edge technology and
-              uncompromising security, we provide seamless payment solutions
-              that adapt to your needs.
+              Our platform transforms how businesses and individuals handle digital transactions. 
+              With cutting-edge technology and uncompromising security, we provide seamless 
+              payment solutions that adapt to your needs.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
@@ -63,31 +62,23 @@ export function ServicesSection() {
                   <Zap className="w-4 h-4 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">
-                    Lightning Fast
-                  </h4>
-                  <p className="text-sm text-gray-600">
-                    Instant transaction processing
-                  </p>
+                  <h4 className="font-semibold text-gray-900 mb-1">Lightning Fast</h4>
+                  <p className="text-sm text-gray-600">Instant transaction processing</p>
                 </div>
               </div>
-
+              
               <div className="flex items-start space-x-3">
                 <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
                   <Clock className="w-4 h-4 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">
-                    24/7 Support
-                  </h4>
-                  <p className="text-sm text-gray-600">
-                    Round-the-clock assistance
-                  </p>
+                  <h4 className="font-semibold text-gray-900 mb-1">24/7 Support</h4>
+                  <p className="text-sm text-gray-600">Round-the-clock assistance</p>
                 </div>
               </div>
             </div>
 
-            <Button
+            <Button 
               size="lg"
               className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white"
             >
@@ -109,8 +100,8 @@ export function ServicesSection() {
               Built for Modern Businesses
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Experience the next generation of digital payments with our
-              comprehensive platform designed for businesses of all sizes.
+              Experience the next generation of digital payments with our comprehensive platform 
+              designed for businesses of all sizes.
             </p>
           </div>
 
@@ -120,12 +111,9 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                B2C Solutions
-              </h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">B2C Solutions</h3>
               <p className="text-gray-600 mb-6">
-                Direct sales portals that facilitate seamless transactions
-                between businesses and consumers with intuitive interfaces.
+                Direct sales portals that facilitate seamless transactions between businesses and consumers with intuitive interfaces.
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Learn More
@@ -137,12 +125,9 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6">
                 <Building className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                B2B Platform
-              </h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">B2B Platform</h3>
               <p className="text-gray-600 mb-6">
-                Enterprise-grade solutions enabling businesses to trade goods
-                and services efficiently with advanced features.
+                Enterprise-grade solutions enabling businesses to trade goods and services efficiently with advanced features.
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Learn More
@@ -154,12 +139,9 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Trusted by 10k+
-              </h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Trusted by 10k+</h3>
               <p className="text-gray-600 mb-6">
-                Join thousands of satisfied customers who trust our platform for
-                secure and reliable digital payment solutions.
+                Join thousands of satisfied customers who trust our platform for secure and reliable digital payment solutions.
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Learn More
@@ -171,12 +153,9 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6">
                 <Smartphone className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Mobile Ready
-              </h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Mobile Ready</h3>
               <p className="text-gray-600 mb-6">
-                Fully optimized mobile applications and responsive design
-                ensuring seamless experiences across all devices.
+                Fully optimized mobile applications and responsive design ensuring seamless experiences across all devices.
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Learn More
@@ -194,8 +173,7 @@ export function ServicesSection() {
               Our Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive payment solutions tailored to meet diverse business
-              and personal needs.
+              Comprehensive payment solutions tailored to meet diverse business and personal needs.
             </p>
           </div>
 
@@ -205,12 +183,9 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <CreditCard className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Money Transfer
-              </h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Money Transfer</h3>
               <p className="text-gray-600 mb-6">
-                Send money globally with competitive rates and instant
-                processing. Secure, fast, and reliable transfers worldwide.
+                Send money globally with competitive rates and instant processing. Secure, fast, and reliable transfers worldwide.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
@@ -236,12 +211,9 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Globe className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Bill Payment
-              </h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Bill Payment</h3>
               <p className="text-gray-600 mb-6">
-                Pay utilities, services, and bills online with ease. Schedule
-                payments and never miss a due date again.
+                Pay utilities, services, and bills online with ease. Schedule payments and never miss a due date again.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
@@ -267,12 +239,9 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Smartphone className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Mobile Recharge
-              </h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Mobile Recharge</h3>
               <p className="text-gray-600 mb-6">
-                Top up mobile phones instantly with support for all major
-                carriers. Quick, convenient, and secure.
+                Top up mobile phones instantly with support for all major carriers. Quick, convenient, and secure.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
