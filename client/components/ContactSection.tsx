@@ -22,24 +22,24 @@ export function ContactSection() {
           <div className="lg:col-span-1 mb-12 lg:mb-0">
             <div className="space-y-8">
 
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center">
+              <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-200 shadow-lg">
+                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg">
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-                  <p className="text-gray-600">agentxofficialwork@gmail.com</p>
+                  <p className="text-green-700 font-semibold text-lg">agentxofficialwork@gmail.com</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
+              <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl border border-purple-200 shadow-lg">
+                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Office</h3>
-                  <p className="text-gray-600">213, Diamond Trading Centre</p>
-                  <p className="text-gray-600">Indore (MP) 452001</p>
+                  <p className="text-purple-700 font-semibold">213, Diamond Trading Centre</p>
+                  <p className="text-purple-600">Indore (MP) 452001</p>
                 </div>
               </div>
 
