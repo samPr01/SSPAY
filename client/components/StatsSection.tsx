@@ -15,8 +15,8 @@ export function StatsSection() {
           
           <div>
             <div className="flex items-center justify-center mb-2">
-              <DollarSign className="w-6 h-6 mr-2" />
-              <div className="text-2xl font-bold">₹500Cr+</div>
+              <TrendingUp className="w-6 h-6 mr-2" />
+              <div className="text-2xl font-bold">₹200Cr+</div>
             </div>
             <div className="text-brand-100 text-sm">Transactions</div>
           </div>
