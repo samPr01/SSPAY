@@ -1,15 +1,15 @@
-import { Link } from 'react-router-dom';
-import { 
-  Wallet, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Facebook, 
-  Twitter, 
-  Instagram, 
+import { Link } from "react-router-dom";
+import {
+  Wallet,
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Twitter,
+  Instagram,
   Linkedin,
-  ArrowRight
-} from 'lucide-react';
+  ArrowRight,
+} from "lucide-react";
 
 export function Footer() {
   return (
@@ -25,30 +25,30 @@ export function Footer() {
               <span className="text-xl font-bold">PayFlow</span>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Revolutionizing digital payments with secure, fast, and reliable solutions 
-              for businesses and individuals worldwide.
+              Revolutionizing digital payments with secure, fast, and reliable
+              solutions for businesses and individuals worldwide.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Twitter className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
@@ -61,8 +61,8 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-6">Services</h3>
             <ul className="space-y-4">
               <li>
-                <Link 
-                  to="/services/money-transfer" 
+                <Link
+                  to="/services/money-transfer"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -70,8 +70,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/services/bill-payment" 
+                <Link
+                  to="/services/bill-payment"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -79,8 +79,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/services/mobile-recharge" 
+                <Link
+                  to="/services/mobile-recharge"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -88,8 +88,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/services/business" 
+                <Link
+                  to="/services/business"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -104,8 +104,8 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-6">Company</h3>
             <ul className="space-y-4">
               <li>
-                <Link 
-                  to="/about" 
+                <Link
+                  to="/about"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -113,8 +113,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/careers" 
+                <Link
+                  to="/careers"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -122,8 +122,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/news" 
+                <Link
+                  to="/news"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -131,8 +131,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/contact" 
+                <Link
+                  to="/contact"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -155,8 +155,8 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-brand-400 flex-shrink-0" />
-                <a 
-                  href="tel:+15551234567" 
+                <a
+                  href="tel:+15551234567"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   +1 (555) 123-4567
@@ -164,8 +164,8 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-brand-400 flex-shrink-0" />
-                <a 
-                  href="mailto:support@payflow.com" 
+                <a
+                  href="mailto:support@payflow.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   support@payflow.com
@@ -197,26 +197,26 @@ export function Footer() {
               © 2024 PayFlow. All rights reserved.
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
-              <Link 
-                to="/privacy" 
+              <Link
+                to="/privacy"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Privacy Policy
               </Link>
-              <Link 
-                to="/terms" 
+              <Link
+                to="/terms"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Terms of Service
               </Link>
-              <Link 
-                to="/security" 
+              <Link
+                to="/security"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Security
               </Link>
-              <Link 
-                to="/cookies" 
+              <Link
+                to="/cookies"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Cookie Policy

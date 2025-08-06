@@ -1,7 +1,7 @@
-import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Textarea } from './ui/textarea';
+import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
 
 export function ContactSection() {
   return (
@@ -12,8 +12,8 @@ export function ContactSection() {
             Get in Touch
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have questions about our services? We're here to help. Reach out to our 
-            dedicated support team for assistance.
+            Have questions about our services? We're here to help. Reach out to
+            our dedicated support team for assistance.
           </p>
         </div>
 
@@ -26,7 +26,9 @@ export function ContactSection() {
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    Phone
+                  </h3>
                   <p className="text-gray-600">+1 (555) 123-4567</p>
                   <p className="text-gray-600">+1 (555) 987-6543</p>
                 </div>
@@ -37,7 +39,9 @@ export function ContactSection() {
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    Email
+                  </h3>
                   <p className="text-gray-600">support@payflow.com</p>
                   <p className="text-gray-600">business@payflow.com</p>
                 </div>
@@ -48,7 +52,9 @@ export function ContactSection() {
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Office</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    Office
+                  </h3>
                   <p className="text-gray-600">123 Financial District</p>
                   <p className="text-gray-600">New York, NY 10004</p>
                 </div>
@@ -59,7 +65,9 @@ export function ContactSection() {
                   <Clock className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Hours</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    Hours
+                  </h3>
                   <p className="text-gray-600">24/7 Customer Support</p>
                   <p className="text-gray-600">Always available</p>
                 </div>
@@ -73,7 +81,10 @@ export function ContactSection() {
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="firstName"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       First Name
                     </label>
                     <Input
@@ -84,7 +95,10 @@ export function ContactSection() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="lastName"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Last Name
                     </label>
                     <Input
@@ -97,7 +111,10 @@ export function ContactSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Email Address
                   </label>
                   <Input
@@ -109,7 +126,10 @@ export function ContactSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="phone"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Phone Number
                   </label>
                   <Input
@@ -121,7 +141,10 @@ export function ContactSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Subject
                   </label>
                   <Input
@@ -133,7 +156,10 @@ export function ContactSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Message
                   </label>
                   <Textarea
@@ -144,7 +170,7 @@ export function ContactSection() {
                   />
                 </div>
 
-                <Button 
+                <Button
                   type="submit"
                   size="lg"
                   className="w-full bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white"

@@ -1,5 +1,5 @@
-import { ArrowRight, Play, Smartphone, Shield, Zap, Globe } from 'lucide-react';
-import { Button } from './ui/button';
+import { ArrowRight, Play, Smartphone, Shield, Zap, Globe } from "lucide-react";
+import { Button } from "./ui/button";
 
 export function HeroSection() {
   return (
@@ -21,17 +21,18 @@ export function HeroSection() {
                 Instant & Secure Transfers
               </span>
             </div>
-            
+
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Digital payments
               <span className="block bg-gradient-to-r from-brand-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
                 made simple
               </span>
             </h1>
-            
+
             <p className="mt-6 text-xl text-gray-600 leading-relaxed max-w-2xl">
-              Experience the future of digital transactions with our secure, fast, and reliable payment platform. 
-              Send money, pay bills, and manage finances effortlessly.
+              Experience the future of digital transactions with our secure,
+              fast, and reliable payment platform. Send money, pay bills, and
+              manage finances effortlessly.
             </p>
 
             {/* Features */}
@@ -40,13 +41,17 @@ export function HeroSection() {
                 <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-green-400 to-green-500 rounded-lg flex items-center justify-center">
                   <Shield className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-gray-700 font-medium">Bank-level Security</span>
+                <span className="text-gray-700 font-medium">
+                  Bank-level Security
+                </span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-blue-400 to-blue-500 rounded-lg flex items-center justify-center">
                   <Zap className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-gray-700 font-medium">Instant Transfers</span>
+                <span className="text-gray-700 font-medium">
+                  Instant Transfers
+                </span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-purple-400 to-purple-500 rounded-lg flex items-center justify-center">
@@ -64,15 +69,15 @@ export function HeroSection() {
 
             {/* CTA Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
-              <Button 
+              <Button
                 size="lg"
                 className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
               >
                 Start Sending Money
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="lg"
                 className="border-2 border-gray-300 hover:border-brand-300 hover:bg-brand-50 transition-all duration-300"
               >
@@ -84,14 +89,14 @@ export function HeroSection() {
             {/* App Store Badges */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <div className="flex items-center space-x-4">
-                <img 
-                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
-                  alt="Download on App Store" 
+                <img
+                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                  alt="Download on App Store"
                   className="h-12 hover:scale-105 transition-transform cursor-pointer"
                 />
-                <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
-                  alt="Get it on Google Play" 
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                  alt="Get it on Google Play"
                   className="h-12 hover:scale-105 transition-transform cursor-pointer"
                 />
               </div>
@@ -107,17 +112,23 @@ export function HeroSection() {
                   {/* Phone screen content */}
                   <div className="p-6 h-full flex flex-col">
                     <div className="flex items-center justify-between mb-6">
-                      <div className="text-sm font-medium text-gray-700">9:41 AM</div>
+                      <div className="text-sm font-medium text-gray-700">
+                        9:41 AM
+                      </div>
                       <div className="flex space-x-1">
                         <div className="w-1 h-1 bg-gray-700 rounded-full"></div>
                         <div className="w-1 h-1 bg-gray-700 rounded-full"></div>
                         <div className="w-1 h-1 bg-gray-700 rounded-full"></div>
                       </div>
                     </div>
-                    
+
                     <div className="text-center mb-8">
-                      <h3 className="text-lg font-bold text-gray-900 mb-2">Send Money</h3>
-                      <div className="text-3xl font-bold text-brand-600">$2,500.00</div>
+                      <h3 className="text-lg font-bold text-gray-900 mb-2">
+                        Send Money
+                      </h3>
+                      <div className="text-3xl font-bold text-brand-600">
+                        $2,500.00
+                      </div>
                     </div>
 
                     <div className="space-y-4 flex-1">
@@ -125,8 +136,12 @@ export function HeroSection() {
                         <div className="flex items-center space-x-3">
                           <div className="w-10 h-10 bg-gradient-to-r from-green-400 to-green-500 rounded-full"></div>
                           <div>
-                            <div className="font-medium text-gray-900">John Doe</div>
-                            <div className="text-sm text-gray-600">+1 (555) 123-4567</div>
+                            <div className="font-medium text-gray-900">
+                              John Doe
+                            </div>
+                            <div className="text-sm text-gray-600">
+                              +1 (555) 123-4567
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -134,8 +149,12 @@ export function HeroSection() {
                         <div className="flex items-center space-x-3">
                           <div className="w-10 h-10 bg-gradient-to-r from-blue-400 to-blue-500 rounded-full"></div>
                           <div>
-                            <div className="font-medium text-gray-900">Sarah Wilson</div>
-                            <div className="text-sm text-gray-600">+1 (555) 987-6543</div>
+                            <div className="font-medium text-gray-900">
+                              Sarah Wilson
+                            </div>
+                            <div className="text-sm text-gray-600">
+                              +1 (555) 987-6543
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -151,13 +170,17 @@ export function HeroSection() {
               {/* Floating cards */}
               <div className="absolute -top-4 -left-8 w-24 h-16 bg-white rounded-xl shadow-lg border border-gray-200 p-3 animate-bounce">
                 <div className="w-full h-2 bg-gradient-to-r from-green-400 to-green-500 rounded-full mb-2"></div>
-                <div className="text-xs font-medium text-gray-700">Transfer Complete</div>
+                <div className="text-xs font-medium text-gray-700">
+                  Transfer Complete
+                </div>
               </div>
-              
+
               <div className="absolute -bottom-4 -right-8 w-28 h-20 bg-white rounded-xl shadow-lg border border-gray-200 p-3 animate-pulse">
                 <div className="flex items-center space-x-2 mb-2">
                   <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                  <div className="text-xs font-medium text-gray-700">$1,250</div>
+                  <div className="text-xs font-medium text-gray-700">
+                    $1,250
+                  </div>
                 </div>
                 <div className="text-xs text-gray-500">Received</div>
               </div>
