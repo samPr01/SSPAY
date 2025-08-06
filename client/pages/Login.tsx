@@ -38,6 +38,7 @@ export default function Login() {
                 </div>
                 <Input
                   id="email"
+                  name="email"
                   type="email"
                   placeholder="john@example.com"
                   className="pl-10"
