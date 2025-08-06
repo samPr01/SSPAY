@@ -1,5 +1,4 @@
 import { Shield, Users, Globe, Award, CheckCircle, Target } from 'lucide-react';
-import { StatsSection } from '../components/StatsSection';
 
 export default function About() {
   return (
