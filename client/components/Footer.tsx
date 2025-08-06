@@ -90,20 +90,6 @@ export function Footer() {
               </div>
             </div>
 
-            {/* Newsletter */}
-            <div className="mt-8">
-              <h4 className="text-md font-semibold mb-4">Stay Updated</h4>
-              <div className="flex">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus:outline-none focus:border-brand-500 text-white placeholder-gray-400"
-                />
-                <button className="px-4 py-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 rounded-r-lg transition-colors">
-                  <Mail className="w-5 h-5" />
-                </button>
-              </div>
-            </div>
           </div>
         </div>
 
