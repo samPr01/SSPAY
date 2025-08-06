@@ -22,38 +22,12 @@ export function Footer() {
               <div className="w-10 h-10 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
                 <Wallet className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">PayFlow</span>
+              <span className="text-xl font-bold">Samaysagarpay</span>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Revolutionizing digital payments with secure, fast, and reliable
               solutions for businesses and individuals worldwide.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 hover:bg-brand-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Services */}
@@ -114,20 +88,20 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/careers"
+                  to="/faq"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  Careers
+                  FAQs
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/news"
+                  to="/refunds"
                   className="text-gray-400 hover:text-white transition-colors flex items-center group"
                 >
                   <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  News & Updates
+                  Refunds & Cancellations
                 </Link>
               </li>
               <li>
@@ -149,8 +123,8 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-brand-400 mt-1 flex-shrink-0" />
                 <div className="text-gray-400">
-                  <p>123 Financial District</p>
-                  <p>New York, NY 10004</p>
+                  <p>213, Diamond Trading Centre</p>
+                  <p>Indore (MP) 452001</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -165,7 +139,7 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-brand-400 flex-shrink-0" />
                 <a
-                  href="mailto:support@payflow.com"
+                  href="mailto:support@samaysagarpay.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   support@payflow.com
@@ -194,7 +168,7 @@ export function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 PayFlow. All rights reserved.
+              © 2024 Samaysagarpay. All rights reserved.
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
               <Link
