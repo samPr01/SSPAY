@@ -65,15 +65,6 @@ export function ServicesSection() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center space-y-3">
-              <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-pink-600 rounded-lg flex items-center justify-center">
-                <Shield className="w-6 h-6 text-white" />
-              </div>
-              <div className="text-center">
-                <h4 className="font-semibold text-gray-900 mb-1 text-sm">Bank Security</h4>
-                <p className="text-xs text-gray-600">Military grade</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
