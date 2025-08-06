@@ -1,16 +1,16 @@
-import { 
-  CreditCard, 
-  Smartphone, 
-  Globe, 
-  Shield, 
-  Zap, 
-  Users, 
-  Building, 
+import {
+  CreditCard,
+  Smartphone,
+  Globe,
+  Shield,
+  Zap,
+  Users,
+  Building,
   Clock,
   CheckCircle,
-  ArrowRight
-} from 'lucide-react';
-import { Button } from './ui/button';
+  ArrowRight,
+} from "lucide-react";
+import { Button } from "./ui/button";
 
 export function ServicesSection() {
   return (
@@ -26,21 +26,23 @@ export function ServicesSection() {
           </div>
 
           <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Our platform transforms how businesses and individuals handle digital transactions.
-            With cutting-edge technology and uncompromising security, we provide seamless
-            payment solutions that adapt to your needs.
+            Our platform transforms how businesses and individuals handle
+            digital transactions. With cutting-edge technology and
+            uncompromising security, we provide seamless payment solutions that
+            adapt to your needs.
           </p>
         </div>
 
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
-          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="flex flex-col items-center space-y-3">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <div className="text-center">
-                <h4 className="font-semibold text-gray-900 mb-1 text-sm">Lightning Fast</h4>
+                <h4 className="font-semibold text-gray-900 mb-1 text-sm">
+                  Lightning Fast
+                </h4>
                 <p className="text-xs text-gray-600">Instant processing</p>
               </div>
             </div>
@@ -50,7 +52,9 @@ export function ServicesSection() {
                 <Clock className="w-6 h-6 text-white" />
               </div>
               <div className="text-center">
-                <h4 className="font-semibold text-gray-900 mb-1 text-sm">24/7 Support</h4>
+                <h4 className="font-semibold text-gray-900 mb-1 text-sm">
+                  24/7 Support
+                </h4>
                 <p className="text-xs text-gray-600">Round-the-clock</p>
               </div>
             </div>
@@ -60,11 +64,12 @@ export function ServicesSection() {
                 <Users className="w-6 h-6 text-white" />
               </div>
               <div className="text-center">
-                <h4 className="font-semibold text-gray-900 mb-1 text-sm">5L+ Payments</h4>
+                <h4 className="font-semibold text-gray-900 mb-1 text-sm">
+                  5L+ Payments
+                </h4>
                 <p className="text-xs text-gray-600">Processed monthly</p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -80,8 +85,8 @@ export function ServicesSection() {
               </span>
             </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Experience the next generation of digital payments with our comprehensive platform 
-              designed for businesses of all sizes.
+              Experience the next generation of digital payments with our
+              comprehensive platform designed for businesses of all sizes.
             </p>
           </div>
 
@@ -91,9 +96,12 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">B2C Solutions</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                B2C Solutions
+              </h3>
               <p className="text-gray-600 mb-6">
-                Direct sales portals that facilitate seamless transactions between businesses and consumers with intuitive interfaces.
+                Direct sales portals that facilitate seamless transactions
+                between businesses and consumers with intuitive interfaces.
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Learn More
@@ -105,9 +113,12 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6">
                 <Building className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">B2B Platform</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                B2B Platform
+              </h3>
               <p className="text-gray-600 mb-6">
-                Enterprise-grade solutions enabling businesses to trade goods and services efficiently with advanced features.
+                Enterprise-grade solutions enabling businesses to trade goods
+                and services efficiently with advanced features.
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Learn More
@@ -119,9 +130,12 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Trusted by 10k+</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Trusted by 10k+
+              </h3>
               <p className="text-gray-600 mb-6">
-                Join thousands of satisfied customers who trust our platform for secure and reliable digital payment solutions.
+                Join thousands of satisfied customers who trust our platform for
+                secure and reliable digital payment solutions.
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Learn More
@@ -133,9 +147,12 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6">
                 <Smartphone className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Mobile Ready</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Mobile Ready
+              </h3>
               <p className="text-gray-600 mb-6">
-                Fully optimized mobile applications and responsive design ensuring seamless experiences across all devices.
+                Fully optimized mobile applications and responsive design
+                ensuring seamless experiences across all devices.
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Learn More
@@ -153,7 +170,8 @@ export function ServicesSection() {
               Our Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive payment solutions tailored to meet diverse business and personal needs.
+              Comprehensive payment solutions tailored to meet diverse business
+              and personal needs.
             </p>
           </div>
 
@@ -163,9 +181,12 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <CreditCard className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Money Transfer</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Money Transfer
+              </h3>
               <p className="text-gray-600 mb-6">
-                Send money globally with competitive rates and instant processing. Secure, fast, and reliable transfers worldwide.
+                Send money globally with competitive rates and instant
+                processing. Secure, fast, and reliable transfers worldwide.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
@@ -191,9 +212,12 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Globe className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Bill Payment</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Bill Payment
+              </h3>
               <p className="text-gray-600 mb-6">
-                Pay utilities, services, and bills online with ease. Schedule payments and never miss a due date again.
+                Pay utilities, services, and bills online with ease. Schedule
+                payments and never miss a due date again.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
@@ -219,9 +243,12 @@ export function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Smartphone className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Mobile Recharge</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Mobile Recharge
+              </h3>
               <p className="text-gray-600 mb-6">
-                Top up mobile phones instantly with support for all major carriers. Quick, convenient, and secure.
+                Top up mobile phones instantly with support for all major
+                carriers. Quick, convenient, and secure.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">

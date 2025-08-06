@@ -1,18 +1,18 @@
-import { Link } from 'react-router-dom';
-import { 
-  CreditCard, 
-  Smartphone, 
-  Globe, 
-  Shield, 
-  Zap, 
-  Users, 
-  Building, 
+import { Link } from "react-router-dom";
+import {
+  CreditCard,
+  Smartphone,
+  Globe,
+  Shield,
+  Zap,
+  Users,
+  Building,
   Clock,
   CheckCircle,
-  ArrowRight
-} from 'lucide-react';
-import { Button } from '../components/ui/button';
-import { StatsSection } from '../components/StatsSection';
+  ArrowRight,
+} from "lucide-react";
+import { Button } from "../components/ui/button";
+import { StatsSection } from "../components/StatsSection";
 
 export default function Services() {
   return (
@@ -25,13 +25,12 @@ export default function Services() {
               Our Services
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Comprehensive digital payment solutions designed to meet all your 
+              Comprehensive digital payment solutions designed to meet all your
               financial transaction needs with security and convenience.
             </p>
           </div>
         </div>
       </section>
-
 
       {/* Main Services */}
       <section className="py-24">
@@ -42,14 +41,18 @@ export default function Services() {
               <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <CreditCard className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Money Transfer</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                Money Transfer
+              </h3>
               <p className="text-gray-600 mb-4 text-sm">
-                Send money globally with competitive rates and secure processing.
+                Send money globally with competitive rates and secure
+                processing.
               </p>
-              <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 text-sm py-2">
-                <Link to="/services/money-transfer">
-                  Learn More
-                </Link>
+              <Button
+                asChild
+                className="w-full bg-blue-600 hover:bg-blue-700 text-sm py-2"
+              >
+                <Link to="/services/money-transfer">Learn More</Link>
               </Button>
             </div>
 
@@ -58,14 +61,17 @@ export default function Services() {
               <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Globe className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Bill Payment</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                Bill Payment
+              </h3>
               <p className="text-gray-600 mb-4 text-sm">
                 Pay all your bills in one place with automated scheduling.
               </p>
-              <Button asChild className="w-full bg-green-600 hover:bg-green-700 text-sm py-2">
-                <Link to="/services/bill-payment">
-                  Learn More
-                </Link>
+              <Button
+                asChild
+                className="w-full bg-green-600 hover:bg-green-700 text-sm py-2"
+              >
+                <Link to="/services/bill-payment">Learn More</Link>
               </Button>
             </div>
 
@@ -74,14 +80,17 @@ export default function Services() {
               <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Smartphone className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Mobile Recharge</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                Mobile Recharge
+              </h3>
               <p className="text-gray-600 mb-4 text-sm">
                 Top up mobile phones instantly with support for all carriers.
               </p>
-              <Button asChild className="w-full bg-purple-600 hover:bg-purple-700 text-sm py-2">
-                <Link to="/services/mobile-recharge">
-                  Learn More
-                </Link>
+              <Button
+                asChild
+                className="w-full bg-purple-600 hover:bg-purple-700 text-sm py-2"
+              >
+                <Link to="/services/mobile-recharge">Learn More</Link>
               </Button>
             </div>
 
@@ -90,14 +99,17 @@ export default function Services() {
               <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Users className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">5L+ Payments</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                5L+ Payments
+              </h3>
               <p className="text-gray-600 mb-4 text-sm">
                 Processing over 5 lakh payments monthly with reliability.
               </p>
-              <Button asChild className="w-full bg-orange-600 hover:bg-orange-700 text-sm py-2">
-                <Link to="/about">
-                  Learn More
-                </Link>
+              <Button
+                asChild
+                className="w-full bg-orange-600 hover:bg-orange-700 text-sm py-2"
+              >
+                <Link to="/about">Learn More</Link>
               </Button>
             </div>
 
@@ -106,14 +118,17 @@ export default function Services() {
               <div className="w-12 h-12 bg-emerald-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Clock className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">24/7 Support</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                24/7 Support
+              </h3>
               <p className="text-gray-600 mb-4 text-sm">
                 Round-the-clock customer support for all your needs.
               </p>
-              <Button asChild className="w-full bg-emerald-600 hover:bg-emerald-700 text-sm py-2">
-                <Link to="/contact">
-                  Contact Us
-                </Link>
+              <Button
+                asChild
+                className="w-full bg-emerald-600 hover:bg-emerald-700 text-sm py-2"
+              >
+                <Link to="/contact">Contact Us</Link>
               </Button>
             </div>
           </div>
@@ -138,10 +153,13 @@ export default function Services() {
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">B2C Solutions</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                B2C Solutions
+              </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Direct sales portals that facilitate seamless transactions between 
-                businesses and consumers with intuitive, user-friendly interfaces.
+                Direct sales portals that facilitate seamless transactions
+                between businesses and consumers with intuitive, user-friendly
+                interfaces.
               </p>
               <ul className="space-y-3 mb-6 text-left">
                 <li className="flex items-center text-gray-700">
@@ -167,10 +185,13 @@ export default function Services() {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
                 <Building className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">B2B Platform</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                B2B Platform
+              </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Enterprise-grade solutions enabling businesses to trade goods and 
-                services efficiently with advanced features and robust security.
+                Enterprise-grade solutions enabling businesses to trade goods
+                and services efficiently with advanced features and robust
+                security.
               </p>
               <ul className="space-y-3 mb-6 text-left">
                 <li className="flex items-center text-gray-700">

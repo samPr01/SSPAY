@@ -1,7 +1,7 @@
-import { Mail, MapPin, Send } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Textarea } from './ui/textarea';
+import { Mail, MapPin, Send } from "lucide-react";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
 
 export function ContactSection() {
   return (
@@ -12,8 +12,8 @@ export function ContactSection() {
             Get in Touch
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have questions about our services? We're here to help. Reach out to our 
-            dedicated support team for assistance.
+            Have questions about our services? We're here to help. Reach out to
+            our dedicated support team for assistance.
           </p>
         </div>
 
@@ -26,7 +26,9 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold text-gray-900">Email</h3>
-                <p className="text-green-700 font-medium text-sm">agentxofficialwork@gmail.com</p>
+                <p className="text-green-700 font-medium text-sm">
+                  agentxofficialwork@gmail.com
+                </p>
               </div>
             </div>
 
@@ -36,7 +38,10 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold text-gray-900">Office</h3>
-                <p className="text-purple-700 font-medium text-sm">213, Diamond Trading Centre, New Palasia Indore 474001, (MP) India</p>
+                <p className="text-purple-700 font-medium text-sm">
+                  213, Diamond Trading Centre, New Palasia Indore 474001, (MP)
+                  India
+                </p>
               </div>
             </div>
           </div>
@@ -45,10 +50,18 @@ export function ContactSection() {
         {/* Contact Form */}
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-            <form className="space-y-6" action="mailto:agentxofficialwork@gmail.com" method="post" encType="text/plain">
+            <form
+              className="space-y-6"
+              action="mailto:agentxofficialwork@gmail.com"
+              method="post"
+              encType="text/plain"
+            >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="firstName"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     First Name
                   </label>
                   <Input
@@ -60,7 +73,10 @@ export function ContactSection() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="lastName"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Last Name
                   </label>
                   <Input
@@ -74,7 +90,10 @@ export function ContactSection() {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Email Address
                 </label>
                 <Input
@@ -87,7 +106,10 @@ export function ContactSection() {
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="phone"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Phone Number
                 </label>
                 <Input
@@ -100,7 +122,10 @@ export function ContactSection() {
               </div>
 
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Subject
                 </label>
                 <Input
@@ -113,7 +138,10 @@ export function ContactSection() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Message
                 </label>
                 <Textarea
@@ -125,7 +153,7 @@ export function ContactSection() {
                 />
               </div>
 
-              <Button 
+              <Button
                 type="submit"
                 size="lg"
                 className="w-full bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white"

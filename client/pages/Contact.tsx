@@ -1,6 +1,6 @@
-import { ContactSection } from '../components/ContactSection';
-import { StatsSection } from '../components/StatsSection';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { ContactSection } from "../components/ContactSection";
+import { StatsSection } from "../components/StatsSection";
+import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -13,7 +13,7 @@ export default function Contact() {
               Contact Us
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              We're here to help. Reach out to our team for support, questions, 
+              We're here to help. Reach out to our team for support, questions,
               or partnership opportunities.
             </p>
           </div>
@@ -28,9 +28,14 @@ export default function Contact() {
               <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-6 h-6 text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Email Support</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Email Support
+              </h3>
               <p className="text-gray-600 text-sm mb-3">Send us an email</p>
-              <a href="mailto:agentxofficialwork@gmail.com" className="text-brand-600 font-medium hover:text-brand-700">
+              <a
+                href="mailto:agentxofficialwork@gmail.com"
+                className="text-brand-600 font-medium hover:text-brand-700"
+              >
                 agentxofficialwork@gmail.com
               </a>
             </div>
@@ -39,7 +44,9 @@ export default function Contact() {
               <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-6 h-6 text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Visit Our Office</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Visit Our Office
+              </h3>
               <p className="text-gray-600 text-sm mb-3">Come see us</p>
               <p className="text-brand-600 font-medium">Indore (MP)</p>
             </div>
@@ -49,7 +56,6 @@ export default function Contact() {
 
       {/* Main Contact Section */}
       <ContactSection />
-
     </div>
   );
 }

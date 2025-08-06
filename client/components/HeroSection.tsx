@@ -1,4 +1,4 @@
-import { Shield, Zap, Globe, Smartphone } from 'lucide-react';
+import { Shield, Zap, Globe, Smartphone } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -18,8 +18,9 @@ export function HeroSection() {
         </h1>
 
         <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto mb-12">
-          Experience the future of digital transactions with our secure, fast, and reliable payment platform.
-          Send money, pay bills, and manage finances effortlessly.
+          Experience the future of digital transactions with our secure, fast,
+          and reliable payment platform. Send money, pay bills, and manage
+          finances effortlessly.
         </p>
 
         {/* Features - Centered */}
@@ -28,13 +29,17 @@ export function HeroSection() {
             <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-500 rounded-lg flex items-center justify-center">
               <Zap className="w-6 h-6 text-white" />
             </div>
-            <span className="text-gray-700 font-medium text-sm">Instant Transfers</span>
+            <span className="text-gray-700 font-medium text-sm">
+              Instant Transfers
+            </span>
           </div>
           <div className="flex flex-col items-center space-y-3">
             <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-purple-500 rounded-lg flex items-center justify-center">
               <Globe className="w-6 h-6 text-white" />
             </div>
-            <span className="text-gray-700 font-medium text-sm">Global Reach</span>
+            <span className="text-gray-700 font-medium text-sm">
+              Global Reach
+            </span>
           </div>
         </div>
       </div>

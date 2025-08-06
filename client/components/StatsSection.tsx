@@ -1,4 +1,4 @@
-import { Users, TrendingUp, CreditCard, Clock, Shield } from 'lucide-react';
+import { Users, TrendingUp, CreditCard, Clock, Shield } from "lucide-react";
 
 export function StatsSection() {
   return (
@@ -14,7 +14,7 @@ export function StatsSection() {
             <div className="text-xl font-bold text-gray-900 mb-1">50K+</div>
             <div className="text-gray-600 text-sm">Active Users</div>
           </div>
-          
+
           <div className="bg-white rounded-lg p-4 shadow-sm border">
             <div className="flex items-center justify-center mb-2">
               <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
@@ -24,7 +24,7 @@ export function StatsSection() {
             <div className="text-xl font-bold text-gray-900 mb-1">₹200Cr+</div>
             <div className="text-gray-600 text-sm">Transactions</div>
           </div>
-          
+
           <div className="bg-white rounded-lg p-4 shadow-sm border">
             <div className="flex items-center justify-center mb-2">
               <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
@@ -34,7 +34,7 @@ export function StatsSection() {
             <div className="text-xl font-bold text-gray-900 mb-1">3Cr+</div>
             <div className="text-gray-600 text-sm">Money Transfers</div>
           </div>
-          
+
           <div className="bg-white rounded-lg p-4 shadow-sm border">
             <div className="flex items-center justify-center mb-2">
               <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center">
@@ -44,7 +44,6 @@ export function StatsSection() {
             <div className="text-xl font-bold text-gray-900 mb-1">5L+</div>
             <div className="text-gray-600 text-sm">Bill Payments</div>
           </div>
-          
         </div>
       </div>
     </section>
