@@ -56,6 +56,7 @@ export default function Login() {
                 </div>
                 <Input
                   id="password"
+                  name="password"
                   type={showPassword ? "text" : "password"}
                   placeholder="Enter your password"
                   className="pl-10 pr-10"
