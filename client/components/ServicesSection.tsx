@@ -88,9 +88,12 @@ export function ServicesSection() {
                 Why Choose Samaysagarpay
               </span>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-              Built for Modern Businesses
-            </h2>
+            <div className="mb-6">
+              <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-brand-100 to-purple-100 text-brand-700 border border-brand-200/50">
+                <Building className="w-4 h-4 mr-2" />
+                Built for Modern Businesses
+              </span>
+            </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Experience the next generation of digital payments with our comprehensive platform 
               designed for businesses of all sizes.
