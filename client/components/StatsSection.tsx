@@ -7,8 +7,8 @@ export function StatsSection() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div className="bg-white rounded-lg p-4 shadow-sm border">
             <div className="flex items-center justify-center mb-2">
-              <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                <Users className="w-4 h-4 text-blue-600" />
+              <div className="w-8 h-8 bg-brand-100 rounded-full flex items-center justify-center">
+                <Users className="w-4 h-4 text-brand-600" />
               </div>
             </div>
             <div className="text-xl font-bold text-gray-900 mb-1">50K+</div>
@@ -17,8 +17,8 @@ export function StatsSection() {
 
           <div className="bg-white rounded-lg p-4 shadow-sm border">
             <div className="flex items-center justify-center mb-2">
-              <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-                <TrendingUp className="w-4 h-4 text-green-600" />
+              <div className="w-8 h-8 bg-brand-100 rounded-full flex items-center justify-center">
+                <TrendingUp className="w-4 h-4 text-brand-600" />
               </div>
             </div>
             <div className="text-xl font-bold text-gray-900 mb-1">₹200Cr+</div>
@@ -27,8 +27,8 @@ export function StatsSection() {
 
           <div className="bg-white rounded-lg p-4 shadow-sm border">
             <div className="flex items-center justify-center mb-2">
-              <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                <CreditCard className="w-4 h-4 text-purple-600" />
+              <div className="w-8 h-8 bg-brand-100 rounded-full flex items-center justify-center">
+                <CreditCard className="w-4 h-4 text-brand-600" />
               </div>
             </div>
             <div className="text-xl font-bold text-gray-900 mb-1">3Cr+</div>
@@ -37,8 +37,8 @@ export function StatsSection() {
 
           <div className="bg-white rounded-lg p-4 shadow-sm border">
             <div className="flex items-center justify-center mb-2">
-              <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center">
-                <TrendingUp className="w-4 h-4 text-orange-600" />
+              <div className="w-8 h-8 bg-brand-100 rounded-full flex items-center justify-center">
+                <TrendingUp className="w-4 h-4 text-brand-600" />
               </div>
             </div>
             <div className="text-xl font-bold text-gray-900 mb-1">5L+</div>
