@@ -83,7 +83,7 @@ export default function Index() {
                 Direct sales portals that facilitate seamless transactions between businesses and consumers with intuitive interfaces.
               </p>
               <div className="text-center">
-                <div className="text-2xl font-bold text-brand-600">15K+</div>
+                <div className="text-2xl font-bold text-brand-600 text-center">15K+</div>
                 <div className="text-sm text-gray-500">Business Partners</div>
               </div>
             </div>
