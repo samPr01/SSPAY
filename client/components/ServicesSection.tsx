@@ -178,7 +178,7 @@ export function ServicesSection() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Money Transfer */}
-            <div className="group bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100 hover:shadow-xl transition-all duration-300">
+            <div className="group bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100 hover:shadow-xl transition-all duration-300 flex flex-col justify-center items-center">
               <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <CreditCard className="w-8 h-8 text-white" />
               </div>
