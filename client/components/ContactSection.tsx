@@ -27,7 +27,7 @@ export function ContactSection() {
               <div>
                 <h3 className="text-sm font-semibold text-gray-900">Email</h3>
                 <p className="text-green-700 font-medium text-sm">
-                  agentxofficialwork@gmail.com
+                  info@samaysagarpay.com
                 </p>
               </div>
             </div>
@@ -52,7 +52,7 @@ export function ContactSection() {
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
             <form
               className="space-y-6"
-              action="mailto:agentxofficialwork@gmail.com"
+              action="mailto:info@samaysagarpay.com"
               method="post"
               encType="text/plain"
             >
