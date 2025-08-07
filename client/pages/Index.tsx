@@ -19,18 +19,13 @@ export default function Index() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
             <div className="mb-10 lg:mb-0">
               <div className="relative">
-                <div className="w-full h-60 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl shadow-lg border border-gray-200 flex items-center justify-center">
-                  <div className="text-center">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Secure Payment Platform</h3>
-                    <p className="text-gray-600">Fast, Reliable & Trusted</p>
-                  </div>
-                </div>
+                <div />
               </div>
             </div>
             
             <div>
               <div className="mb-6">
-                <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide">
+                <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide mb-6">
                   Welcome to Samaysagarpay
                 </span>
               </div>
@@ -83,19 +78,16 @@ export default function Index() {
       <section className="bg-gradient-to-br from-brand-50 via-indigo-50 to-purple-50 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide mb-4 block">
-              Why Choose Samaysagarpay
-            </span>
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
               Built for Modern India
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Experience the next generation of digital payments with our comprehensive platform 
+              Experience the next generation of digital payments with our comprehensive platform
               designed for businesses and individuals across India.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* B2C Solutions */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6">
