@@ -90,7 +90,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* B2C Solutions */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">B2C Solutions</h3>
@@ -105,7 +105,7 @@ export default function Index() {
 
             {/* B2B Platform */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6">
                 <Building className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">B2B Platform</h3>
@@ -120,7 +120,7 @@ export default function Index() {
 
             {/* Trusted Network */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Trusted by 50k+</h3>
@@ -135,7 +135,7 @@ export default function Index() {
 
             {/* Mobile Ready */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6">
                 <Smartphone className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Mobile Ready</h3>
@@ -166,7 +166,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {/* Money Transfer */}
             <div className="group text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-20 h-20 bg-gradient-to-r from-brand-500 to-brand-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <CreditCard className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Money Transfer</h3>
@@ -184,7 +184,7 @@ export default function Index() {
 
             {/* Bill Payment */}
             <div className="group text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-20 h-20 bg-gradient-to-r from-brand-500 to-brand-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <Globe className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Bill Payment</h3>
@@ -202,7 +202,7 @@ export default function Index() {
 
             {/* Business Solutions */}
             <div className="group text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-20 h-20 bg-gradient-to-r from-brand-500 to-brand-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <Building className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Business Solutions</h3>
