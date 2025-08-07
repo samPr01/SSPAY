@@ -16,7 +16,7 @@ export default function Index() {
       {/* About Section */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center justify-center">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center justify-center text-center">
             <div className="mb-10 lg:mb-0 text-center">
               <div className="relative">
                 <div />
