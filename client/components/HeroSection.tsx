@@ -2,7 +2,7 @@ import { Shield, Zap, Globe, Smartphone } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+    <section className="py-20 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 text-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
           <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-brand-100 to-purple-100 text-brand-700 border border-brand-200/50">
