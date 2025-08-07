@@ -12,6 +12,51 @@ export default function Index() {
       <HeroSection />
       <StatsSection />
       <ServicesSection />
+
+      <div className="text-center">
+        <div className="mb-6">
+        </div>
+
+        <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-6 text-center">
+          Revolutionizing Digital Payments
+        </h2>
+
+        <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+          Our platform transforms how businesses and individuals handle digital transactions.
+          With cutting-edge technology and uncompromising security, we provide seamless
+          payment solutions that adapt to your needs.
+        </p>
+
+        <div className="grid grid-cols-2 gap-6 mb-8">
+          <div className="flex items-start space-x-3 justify-center">
+            <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
+              <Shield className="w-4 h-4 text-white" />
+            </div>
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-1">Bank-level Security</h4>
+              <p className="text-sm text-gray-600">Advanced encryption</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3 justify-center">
+            <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
+              <Users className="w-4 h-4 text-white" />
+            </div>
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-1">24/7 Support</h4>
+              <p className="text-sm text-gray-600">Always available</p>
+            </div>
+          </div>
+        </div>
+
+        <Button
+          asChild
+          size="lg"
+          className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white"
+        >
+          <Link to="/about">Learn More About Us</Link>
+        </Button>
+      </div>
       
 
       {/* Why Choose Us Section */}
