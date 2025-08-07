@@ -232,7 +232,6 @@ export default function Index() {
       </section>
 
       <ContactSection />
-      <StatsSection />
     </div>
   );
 }
