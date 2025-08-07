@@ -241,7 +241,7 @@ export function ServicesSection() {
 
             {/* Mobile Recharge */}
             <div className="group bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100 hover:shadow-xl transition-all duration-300 text-center flex flex-col justify-center items-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform text-center">
                 <Smartphone className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-4">
