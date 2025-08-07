@@ -52,7 +52,7 @@ export default function Services() {
                 asChild
                 className="w-full bg-blue-600 hover:bg-blue-700 text-sm py-2"
               >
-                <Link to="/services/money-transfer">Learn More</Link>
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
 
@@ -71,7 +71,7 @@ export default function Services() {
                 asChild
                 className="w-full bg-green-600 hover:bg-green-700 text-sm py-2"
               >
-                <Link to="/services/bill-payment">Learn More</Link>
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
 
@@ -90,7 +90,7 @@ export default function Services() {
                 asChild
                 className="w-full bg-purple-600 hover:bg-purple-700 text-sm py-2"
               >
-                <Link to="/services/mobile-recharge">Learn More</Link>
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
 
@@ -109,7 +109,7 @@ export default function Services() {
                 asChild
                 className="w-full bg-orange-600 hover:bg-orange-700 text-sm py-2"
               >
-                <Link to="/about">Learn More</Link>
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
 
@@ -176,7 +176,7 @@ export default function Services() {
                 </li>
               </ul>
               <Button asChild variant="outline" className="w-full">
-                <Link to="/services/b2c">Learn More</Link>
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
 
@@ -208,7 +208,7 @@ export default function Services() {
                 </li>
               </ul>
               <Button asChild variant="outline" className="w-full">
-                <Link to="/services/b2b">Learn More</Link>
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
           </div>
