@@ -22,7 +22,7 @@ export default function About() {
       {/* Mission & Vision */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 justify-center">
+          <div className="flex justify-center">
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
                 <Target className="w-8 h-8 text-white" />
