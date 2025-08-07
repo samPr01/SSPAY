@@ -2,9 +2,19 @@ import { HeroSection } from "../components/HeroSection";
 import { ServicesSection } from "../components/ServicesSection";
 import { ContactSection } from "../components/ContactSection";
 import { StatsSection } from "../components/StatsSection";
-import { Shield, Users, Globe, Award, CheckCircle, Target, CreditCard, Smartphone, Building } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { Button } from '../components/ui/button';
+import {
+  Shield,
+  Users,
+  Globe,
+  Award,
+  CheckCircle,
+  Target,
+  CreditCard,
+  Smartphone,
+  Building,
+} from "lucide-react";
+import { Link } from "react-router-dom";
+import { Button } from "../components/ui/button";
 
 export default function Index() {
   return (
@@ -14,17 +24,17 @@ export default function Index() {
       <ServicesSection />
 
       <div className="text-center">
-        <div className="mb-6">
-        </div>
+        <div className="mb-6"></div>
 
         <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-6 text-center">
           Revolutionizing Digital Payments
         </h2>
 
         <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-          Our platform transforms how businesses and individuals handle digital transactions.
-          With cutting-edge technology and uncompromising security, we provide seamless
-          payment solutions that adapt to your needs.
+          Our platform transforms how businesses and individuals handle digital
+          transactions. With cutting-edge technology and uncompromising
+          security, we provide seamless payment solutions that adapt to your
+          needs.
         </p>
 
         <div className="grid grid-cols-2 gap-6 mb-8">
@@ -33,7 +43,9 @@ export default function Index() {
               <Shield className="w-4 h-4 text-white" />
             </div>
             <div>
-              <h4 className="font-semibold text-gray-900 mb-1">Bank-level Security</h4>
+              <h4 className="font-semibold text-gray-900 mb-1">
+                Bank-level Security
+              </h4>
               <p className="text-sm text-gray-600">Advanced encryption</p>
             </div>
           </div>
@@ -57,7 +69,6 @@ export default function Index() {
           <Link to="/about">Learn More About Us</Link>
         </Button>
       </div>
-      
 
       {/* Why Choose Us Section */}
       <section className="bg-gradient-to-br from-brand-50 via-indigo-50 to-purple-50 py-24 text-center">
@@ -67,8 +78,9 @@ export default function Index() {
               Built for Modern India
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center">
-              Experience the next generation of digital payments with our comprehensive platform
-              designed for businesses and individuals across India.
+              Experience the next generation of digital payments with our
+              comprehensive platform designed for businesses and individuals
+              across India.
             </p>
           </div>
 
@@ -78,12 +90,17 @@ export default function Index() {
               <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">B2C Solutions</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                B2C Solutions
+              </h3>
               <p className="text-gray-600 mb-6">
-                Direct sales portals that facilitate seamless transactions between businesses and consumers with intuitive interfaces.
+                Direct sales portals that facilitate seamless transactions
+                between businesses and consumers with intuitive interfaces.
               </p>
               <div className="text-center">
-                <div className="text-2xl font-bold text-brand-600 text-center">15K+</div>
+                <div className="text-2xl font-bold text-brand-600 text-center">
+                  15K+
+                </div>
                 <div className="text-sm text-gray-500">Business Partners</div>
               </div>
             </div>
@@ -93,12 +110,17 @@ export default function Index() {
               <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6">
                 <Building className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">B2B Platform</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                B2B Platform
+              </h3>
               <p className="text-gray-600 mb-6">
-                Enterprise-grade solutions enabling businesses to trade goods and services efficiently with advanced features.
+                Enterprise-grade solutions enabling businesses to trade goods
+                and services efficiently with advanced features.
               </p>
               <div className="text-center">
-                <div className="text-2xl font-bold text-brand-600 text-center">500+</div>
+                <div className="text-2xl font-bold text-brand-600 text-center">
+                  500+
+                </div>
                 <div className="text-sm text-gray-500">Enterprise Clients</div>
               </div>
             </div>
@@ -108,13 +130,18 @@ export default function Index() {
               <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Trusted by 50k+</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Trusted by 50k+
+              </h3>
               <p className="text-gray-600 mb-6">
-                Join thousands of satisfied customers who trust our platform for secure and reliable digital payment solutions.
+                Join thousands of satisfied customers who trust our platform for
+                secure and reliable digital payment solutions.
               </p>
               <div className="text-center">
                 <div className="text-2xl font-bold text-brand-600">99.8%</div>
-                <div className="text-sm text-gray-500">Customer Satisfaction</div>
+                <div className="text-sm text-gray-500">
+                  Customer Satisfaction
+                </div>
               </div>
             </div>
 
@@ -123,9 +150,12 @@ export default function Index() {
               <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6">
                 <Smartphone className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Mobile Ready</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Mobile Ready
+              </h3>
               <p className="text-gray-600 mb-6">
-                Fully optimized mobile applications and responsive design ensuring seamless experiences across all devices.
+                Fully optimized mobile applications and responsive design
+                ensuring seamless experiences across all devices.
               </p>
               <div className="text-center">
                 <div className="text-2xl font-bold text-brand-600">2M+</div>
@@ -144,7 +174,8 @@ export default function Index() {
               Our Core Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center">
-              Comprehensive digital payment solutions for all your financial needs
+              Comprehensive digital payment solutions for all your financial
+              needs
             </p>
           </div>
 
@@ -154,9 +185,12 @@ export default function Index() {
               <div className="w-20 h-20 bg-gradient-to-r from-brand-500 to-brand-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <CreditCard className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Money Transfer</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Money Transfer
+              </h3>
               <p className="text-gray-600 mb-4">
-                Send money across India instantly with competitive rates and secure processing.
+                Send money across India instantly with competitive rates and
+                secure processing.
               </p>
               <div className="text-center mb-4">
                 <div className="text-2xl font-bold text-blue-600">3Cr+</div>
@@ -172,9 +206,12 @@ export default function Index() {
               <div className="w-20 h-20 bg-gradient-to-r from-brand-500 to-brand-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <Globe className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Bill Payment</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Bill Payment
+              </h3>
               <p className="text-gray-600 mb-4">
-                Pay all your utility bills, mobile recharges, and services in one place.
+                Pay all your utility bills, mobile recharges, and services in
+                one place.
               </p>
               <div className="text-center mb-4">
                 <div className="text-2xl font-bold text-green-600">5L+</div>
@@ -190,7 +227,9 @@ export default function Index() {
               <div className="w-20 h-20 bg-gradient-to-r from-brand-500 to-brand-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <Building className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Business Solutions</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Business Solutions
+              </h3>
               <p className="text-gray-600 mb-4">
                 Comprehensive payment solutions for businesses of all sizes.
               </p>
@@ -205,7 +244,7 @@ export default function Index() {
           </div>
 
           <div className="text-center">
-            <Button 
+            <Button
               asChild
               size="lg"
               className="bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white"
