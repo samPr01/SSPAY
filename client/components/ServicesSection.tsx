@@ -33,7 +33,7 @@ export function ServicesSection() {
           </p>
         </div>
 
-        <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="flex flex-col items-center space-y-3">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
