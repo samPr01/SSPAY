@@ -16,21 +16,21 @@ export default function Index() {
       {/* About Section */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
-            <div className="mb-10 lg:mb-0">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center justify-center">
+            <div className="mb-10 lg:mb-0 text-center">
               <div className="relative">
                 <div />
               </div>
             </div>
-            
-            <div>
+
+            <div className="text-center">
               <div className="mb-6">
                 <span className="text-brand-600 font-semibold text-sm uppercase tracking-wide mb-6">
                   Welcome to Samaysagarpay
                 </span>
               </div>
               
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-6 text-center">
                 Revolutionizing Digital Payments
               </h2>
               
@@ -41,8 +41,8 @@ export default function Index() {
               </p>
 
               <div className="grid grid-cols-2 gap-6 mb-8">
-                <div className="flex items-start space-x-3">
-                  <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                <div className="flex items-start space-x-3 justify-center">
+                  <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
                     <Shield className="w-4 h-4 text-white" />
                   </div>
                   <div>
@@ -51,8 +51,8 @@ export default function Index() {
                   </div>
                 </div>
                 
-                <div className="flex items-start space-x-3">
-                  <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+                <div className="flex items-start space-x-3 justify-center">
+                  <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
                     <Users className="w-4 h-4 text-white" />
                   </div>
                   <div>
@@ -78,7 +78,7 @@ export default function Index() {
       <section className="bg-gradient-to-br from-brand-50 via-indigo-50 to-purple-50 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-6">
               Built for Modern India
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -155,7 +155,7 @@ export default function Index() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-6">
               Our Core Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
