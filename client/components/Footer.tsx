@@ -70,10 +70,10 @@ export function Footer() {
             <div className="flex flex-col items-center space-y-2">
               <Mail className="w-4 h-4 text-purple-400" />
               <a
-                href="mailto:agentxofficialwork@gmail.com"
+                href="mailto:info@samaysagarpay.com"
                 className="text-gray-400 hover:text-white transition-colors text-sm"
               >
-                agentxofficialwork@gmail.com
+                info@samaysagarpay.com
               </a>
             </div>
           </div>
