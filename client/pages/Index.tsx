@@ -61,7 +61,7 @@ export default function Index() {
 
       {/* Why Choose Us Section */}
       <section className="bg-gradient-to-br from-brand-50 via-indigo-50 to-purple-50 py-24 text-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-6 text-center">
               Built for Modern India
