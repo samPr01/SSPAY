@@ -41,7 +41,7 @@ export default function Services() {
               <div className="w-12 h-12 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <CreditCard className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">
+              <h3 className="text-lg font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-3">
                 Money Transfer
               </h3>
               <p className="text-gray-600 mb-4 text-sm">
@@ -61,7 +61,7 @@ export default function Services() {
               <div className="w-12 h-12 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Globe className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">
+              <h3 className="text-lg font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-3">
                 Bill Payment
               </h3>
               <p className="text-gray-600 mb-4 text-sm">
@@ -80,7 +80,7 @@ export default function Services() {
               <div className="w-12 h-12 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Smartphone className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">
+              <h3 className="text-lg font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-3">
                 Mobile Recharge
               </h3>
               <p className="text-gray-600 mb-4 text-sm">
@@ -99,7 +99,7 @@ export default function Services() {
               <div className="w-12 h-12 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Users className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">
+              <h3 className="text-lg font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-3">
                 5L+ Payments
               </h3>
               <p className="text-gray-600 mb-4 text-sm">
@@ -118,7 +118,7 @@ export default function Services() {
               <div className="w-12 h-12 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Clock className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-3">
+              <h3 className="text-lg font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-3">
                 24/7 Support
               </h3>
               <p className="text-gray-600 mb-4 text-sm">
@@ -153,7 +153,7 @@ export default function Services() {
               <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-4">
                 B2C Solutions
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
@@ -185,7 +185,7 @@ export default function Services() {
               <div className="w-16 h-16 bg-gradient-to-r from-brand-500 to-brand-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
                 <Building className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent mb-4">
                 B2B Platform
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
