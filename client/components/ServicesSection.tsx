@@ -103,8 +103,8 @@ export function ServicesSection() {
                 Direct sales portals that facilitate seamless transactions
                 between businesses and consumers with intuitive interfaces.
               </p>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button asChild variant="outline" size="sm" className="w-full">
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
 
@@ -120,8 +120,8 @@ export function ServicesSection() {
                 Enterprise-grade solutions enabling businesses to trade goods
                 and services efficiently with advanced features.
               </p>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button asChild variant="outline" size="sm" className="w-full">
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
 
@@ -137,8 +137,8 @@ export function ServicesSection() {
                 Join thousands of satisfied customers who trust our platform for
                 secure and reliable digital payment solutions.
               </p>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button asChild variant="outline" size="sm" className="w-full">
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
 
@@ -154,8 +154,8 @@ export function ServicesSection() {
                 Fully optimized mobile applications and responsive design
                 ensuring seamless experiences across all devices.
               </p>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button asChild variant="outline" size="sm" className="w-full">
+                <Link to="/">Learn More</Link>
               </Button>
             </div>
           </div>
