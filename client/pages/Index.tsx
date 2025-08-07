@@ -98,7 +98,7 @@ export default function Index() {
                 Enterprise-grade solutions enabling businesses to trade goods and services efficiently with advanced features.
               </p>
               <div className="text-center">
-                <div className="text-2xl font-bold text-brand-600">500+</div>
+                <div className="text-2xl font-bold text-brand-600 text-center">500+</div>
                 <div className="text-sm text-gray-500">Enterprise Clients</div>
               </div>
             </div>
