@@ -12,7 +12,7 @@ export function HeroSection() {
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-          <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-brand-600 via-brand-500 to-blue-600 bg-clip-text text-transparent">
             Digital payments made simple
           </span>
         </h1>
@@ -26,7 +26,7 @@ export function HeroSection() {
         {/* Features - Centered */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-16">
           <div className="flex flex-col items-center space-y-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-500 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
               <Zap className="w-6 h-6 text-white" />
             </div>
             <span className="text-gray-700 font-medium text-sm">
@@ -34,7 +34,7 @@ export function HeroSection() {
             </span>
           </div>
           <div className="flex flex-col items-center space-y-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-purple-500 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 bg-gradient-to-r from-brand-500 to-brand-600 rounded-lg flex items-center justify-center">
               <Globe className="w-6 h-6 text-white" />
             </div>
             <span className="text-gray-700 font-medium text-sm">
