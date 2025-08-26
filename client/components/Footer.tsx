@@ -58,7 +58,7 @@ export function Footer() {
               <MapPin className="w-4 h-4 text-blue-400 mb-2" />
               <div className="text-gray-400 text-sm">
                 <p className="font-medium">213, Diamond Trading Centre</p>
-                <p>New Palasia Indore 474001</p>
+                <p>New Palasia Indore 4</p>
                 <p>(MP) India</p>
               </div>
             </div>
